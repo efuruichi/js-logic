@@ -48,8 +48,15 @@ console.log(canVote(18));
  * The function will return the message: "Login Success!", if the string passed into the function is "test1234"
  * Console.log your result.
 */
+function login(password){
 
-
+  if (password === "test1234"){
+    return "Login Success!";
+  }else{
+    return "Login Failed";
+  }
+}
+console.log(login("test1234"));
 /*
  * #3
  * Function - isGreaterThan
