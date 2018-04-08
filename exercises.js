@@ -169,8 +169,14 @@ console.log(notEqual("quiet", "loud"));
  * The function will return true if the number passed into the function is greater than 100, otherwise it will return false.
  * Console.log your result.
 */ 
-
-
+function spareChange(money){
+  if (money>100){
+    return "true";
+  }else{
+    return "false";
+  }
+}
+console.log(spareChange(100.001));
 
 /*
  * #9
