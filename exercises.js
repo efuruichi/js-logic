@@ -96,7 +96,7 @@ function mustBeTrue(boo){
     return "false";
   }
 }
-console.log(mustBeTrue("true"));
+console.log(mustBeTrue("true"));  
 
 /*
  * #5
@@ -109,8 +109,14 @@ console.log(mustBeTrue("true"));
  * The function will return the message "Word to Big Bird!", if the string passed into the function is a three-letter word. 
  * Console.log your result.
 */
-
-
+function bigBird(word){
+  if (word.substr(0,3)){
+    return "Word to Big Bird!";
+  }else{
+    return "Nope";
+  }
+}
+console.log(bigBird("cat"));
 
 /*
  * #6
