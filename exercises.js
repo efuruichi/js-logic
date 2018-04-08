@@ -191,8 +191,14 @@ console.log(spareChange(100.001));
  * The function will return true if the sum of all the number values is greater than 30, otherwise it will return false.
  * Console.log your result.
 */ 
-
-
+function dirty30(one, two, three){
+  if ((one + two + three)>30){
+    return "true";
+  }else{
+    return "false";
+  }
+}
+console.log(dirty30(10, 15, 20));
 
 /*
  * #10
