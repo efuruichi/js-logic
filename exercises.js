@@ -150,8 +150,14 @@ console.log(isEqual("absolutely", "absolutely"));
  * If the strings are not equal, the function will return the message "Opposites do attract." Otherwise, return the message: "Cause it's like you're my mirror." 
  * Console.log your result.
 */
-
-
+function notEqual(first, second){
+  if (first !== second){
+    return "Opposites do attract.";
+  }else{
+    return "Cause it's like you're my mirror.";
+  }
+}
+console.log(notEqual("quiet", "loud"));
 /*
  * #8
  * Function - spareChange
