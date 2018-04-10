@@ -313,7 +313,37 @@ console.log(doughnutBought);
 /*Final Boss*/
 /*Create a function name dailySpecials which takes in a parameter: `special`.
 Inside the function, create a switch statement that will check the daily specials of your favorite restaurant (or make up your own daily specials for each day of the week.*/
+  var special = 'Wednesday';
+  var menu = null;
+  function dailySpecials(special){
+  switch (special){
+    case 'Sunday':
+    menu = 'mushroom broccoli;';
+    break;
+    case 'Monday':
+    menu = 'tofu casserole';
+    break;
+    case 'Tuesday':
+    menu = 'veggie tacos';
+    break;
+    case 'Wednesday':
+    menu = 'lemongrass tofu';
+    break;
+    case 'Thursday':
+    menu = 'vegetable fried rice';
+    break;
+    case 'Friday':
+    menu = 'choi sum tofu';
+    break;
+    case 'Saturday':
+    menu = 'stir fry vegetables';
+    break;
 
+  }
+  return menu;
+
+}
+console.log(dailySpecials(special));
   
 
 /*
